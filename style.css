@@ -44,7 +44,7 @@ section{
 article {
 	flex:3;
 	padding-right:20px;
-	padding-left:30px;
+	padding-left:80px;
 	text-align: left;
 }
 /*figure*/
@@ -63,12 +63,14 @@ article {
 	align-items:flex-start;
 }
 
-
+.color {
+	color: #4CAF50;
+}
 figure {
 	margin:0;
 }
 figure img {
-	max-width: 50%;
+	max-width: 60%;
 
 }
 figure figcaption{
@@ -78,7 +80,7 @@ figure figcaption{
 }
 
 article p{
-	max-width:50%;
+	max-width:60%;
 	margin:10px 0;
 }
 /*aside/sidebar */
