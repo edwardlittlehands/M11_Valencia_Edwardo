@@ -47,6 +47,10 @@ article {
 	padding-left:80px;
 	text-align: left;
 }
+h2 {
+	color:#4CAF50;
+	padding-left:130px;
+}
 /*figure*/
 /*
 .content-container {
@@ -73,11 +77,13 @@ figure img {
 	max-width: 60%;
 
 }
-figure figcaption{
-	font-style:italic;
+figcaption {
+font-style:italic;
 	text-align:left;
 	margin-top:10px;
+	padding-left:260px;
 }
+
 
 article p{
 	max-width:60%;
