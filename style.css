@@ -47,7 +47,7 @@ article {
 }
 /*figure*/
 figure img {
-	max-width: 100%;
+	max-width: 50%;
 }
 figure figcaption{
 	font-style:italic;
