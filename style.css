@@ -44,9 +44,11 @@ section{
 article {
 	flex:3;
 	padding-right:20px;
-	padding left:20px;
+	padding-left:30px;
+	text-align: left;
 }
 /*figure*/
+/*
 .content-container {
 	display:flex;
 	flex-direction:column;
@@ -54,9 +56,16 @@ article {
 	justify-content:center;
 	text-align:center;
 	margin:0 auto;
+}*/
+.image-container {
+	display:flex;
+	flex-direction:column;
+	align-items:flex-start;
 }
+
+
 figure {
-	margin:20px
+	margin:0;
 }
 figure img {
 	max-width: 50%;
@@ -64,8 +73,13 @@ figure img {
 }
 figure figcaption{
 	font-style:italic;
-	text-align:center;
+	text-align:left;
 	margin-top:10px;
+}
+
+article p{
+	max-width:50%;
+	margin:10px 0;
 }
 /*aside/sidebar */
 aside {
