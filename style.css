@@ -25,6 +25,7 @@ nav ul{
 	color:#ffff;
 	padding:10px;
 	text-align:center;
+	box-shadow: 10px 20px 20px 5px #0E0F0E;
 }
 
 nav ul li a {
