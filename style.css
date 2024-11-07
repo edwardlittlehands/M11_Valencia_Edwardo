@@ -107,6 +107,7 @@ aside {
 	padding:20px;
 	background: rgb(184,82,217);
     background: linear-gradient(0deg, rgba(184,82,217,1) 0%, rgba(122,190,154,1) 49%, rgba(184,45,253,1) 100%);
+	border-radius: 20px 5px 20px 5px;
 }
 .sidebar-heading {
 	text-align:center;
