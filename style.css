@@ -74,11 +74,20 @@ h2 {
 }
 figure {
 	margin:0;
+	perspective: 800px;
 }
+
 figure img {
 	max-width: 60%;
+	transform: rotateY(150deg);
+	transition:transform 1s ease;
 
 }
+
+figure img:hover {
+	transform: rotateY(0deg);
+}
+
 figcaption {
 font-style:italic;
 	text-align:left;
@@ -161,6 +170,8 @@ footer {
 	
 }
 */
+
+
 
 .animation {
   width: 22%;
